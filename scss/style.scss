@@ -3,12 +3,6 @@
 $blue: #004e90;
 $white: #fafafafa;
 
-.promo-2013,
-.promo-2018,
-.promo-2020 {
-  display: none;
-}
-
 @font-face {
   font-family: "Roboto";
   src: url("https://fonts.googleapis.com/css2?family=Roboto");
@@ -18,16 +12,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.promo-2013,
+.promo-2018,
+.promo-2020 {
+  display: none;
+}
+
 h1,
 h2 {
   text-align: center;
   background: $blue;
-  padding: 10px;
+  padding: 20px;
   color: $white;
 }
 
 h2 {
-  max-width: 300px;
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -91,7 +91,6 @@ h4 {
     font-size: 20px;
     width: 150px;
     text-align: center;
-    background: transparent;
     color: $white;
   }
 }
@@ -125,7 +124,6 @@ h4 {
 .miw_contact {
   background-color: $blue;
   color: $white;
-  overflow-x: hidden;
 
   h4 {
     font-size: 25px;
