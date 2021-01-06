@@ -1,6 +1,6 @@
 @import "reset";
 
-$blue: #004e90;
+$blue: #224f74;
 $white: #fafafafa;
 
 @font-face {
@@ -46,15 +46,6 @@ img {
   padding: 10px;
 }
 
-.tools {
-  a {
-    font-size: 20px;
-    padding: 8px;
-    background-color: $blue;
-    color: $white;
-  }
-}
-
 .classroom,
 .teachers {
   li {
@@ -72,7 +63,6 @@ img {
   li {
     width: 100px;
     text-align: center;
-    background: transparent;
   }
 
   a:hover {
@@ -82,7 +72,6 @@ img {
 
 h4 {
   color: $white;
-  font-weight: normal;
   font-size: 20px;
 }
 
@@ -91,6 +80,15 @@ h4 {
     font-size: 20px;
     width: 150px;
     text-align: center;
+    color: $white;
+  }
+}
+
+.tools {
+  a {
+    font-size: 20px;
+    padding: 8px;
+    background-color: $blue;
     color: $white;
   }
 }
