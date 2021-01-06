@@ -1,7 +1,6 @@
 @import "reset";
 
 $blue: #004e90;
-$dark: #333333;
 $white: #fafafafa;
 
 .promo-2013,
@@ -22,13 +21,12 @@ body {
 h1,
 h2 {
   text-align: center;
-  background: $dark;
+  background: $blue;
   padding: 10px;
   color: $white;
 }
 
 h2 {
-  border-radius: 10px;
   max-width: 300px;
   margin: 0 auto;
 }
@@ -52,8 +50,7 @@ img {
   a {
     font-size: 20px;
     padding: 8px;
-    background-color: $dark;
-    border-radius: 10px;
+    background-color: $blue;
     color: $white;
   }
 }
@@ -65,11 +62,6 @@ img {
     background: $blue;
     margin: 20px auto;
     padding: 10px;
-    border-radius: 10px;
-
-    li {
-      box-shadow: 0px 0px 0px 0px $dark;
-    }
   }
 }
 
@@ -123,17 +115,15 @@ h4 {
 }
 
 .outro {
-  max-width: 850px;
-  margin: 20px auto;
-  background-color: $dark;
+  margin: 10px auto;
+  background-color: $blue;
   color: $white;
-  border-radius: 10px;
   padding: 10px;
-  text-align: left;
+  text-align: justify;
 }
 
 .miw_contact {
-  background-color: $dark;
+  background-color: $blue;
   color: $white;
   overflow-x: hidden;
 
@@ -163,11 +153,6 @@ h4 {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      transform: rotateX(180deg);
-
-      li {
-        transform: rotateX(-180deg);
-      }
     }
   }
 
@@ -184,25 +169,8 @@ h4 {
     display: table-cell;
     text-align: center;
   }
-
-  .students {
-    width: 75%;
-  }
-
-  .sidebar {
-    width: 30%;
-  }
-
   .teachers {
-    ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      ul {
-        flex-direction: row;
-      }
-    }
+    margin-left: 150px;
   }
 }
 
@@ -215,7 +183,7 @@ h4 {
   h2,
   h3,
   h4 {
-    color: $dark;
+    color: $blue;
   }
 
   .tools,
